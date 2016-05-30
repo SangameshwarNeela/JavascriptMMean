@@ -1,0 +1,40 @@
+<div class=" container loginClass">
+
+    <div> Pending: {{pendingCount}}</div>
+    <div> Approved: {{approvedCount}}</div>
+
+    <p class="x">Enter Details for New Claim</p>
+
+    <p>
+
+        <p class="z">Type Of Claim :
+
+            <input type="text" ng-model="type">
+        </p>
+
+        <p class="z">Cost :
+
+            <input type="text" ng-model="cost">
+        </p>
+        <p class="z">Assigned to :
+
+            <input type="text" ng-model="assigned">
+        </p>
+        <p class="z">Claim Number :
+
+            <input type="text" ng-model="claimNo">
+        </p>
+
+        <p class="w">
+
+            <a>
+
+                <input type="submit" value="submit" ng-click="onSubmit()">
+
+            </a>
+
+        </p>
+
+    </p>
+    <h2>{{myWelcome}}</h2>
+</div>

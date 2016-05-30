@@ -4,3 +4,47 @@ footer {
     background-color: black;
     width: 100%;
 }
+
+.tableHead {
+    border: 2px solid;
+}
+
+.tablebody {
+    padding: 20px;
+    width: 19%;
+}
+
+.Sub {
+    background-color: gray;
+}
+
+.modal-content {
+    width: 209px;
+    position: right;
+    left: 451px;
+    top: 93px;
+    /* right: -8px; */
+}
+
+.x {
+    padding-left: 35%;
+    margin: 20px;
+}
+
+.y {
+    padding-left: 35%;
+    margin: 20px;
+}
+
+.z {
+    padding-left: 34%;
+}
+
+.w {
+    padding-left: 42%;
+}
+
+.notes {
+    padding-left: 85%;
+    font-size: 30px;
+}

@@ -1,0 +1,18 @@
+<h2>hey</h2>
+
+<table>
+    <tr class="tableHead">
+        <td class="tablebody">Claim Number</td>
+        <td class="tablebody">Submitted By</td>
+        <td class="tablebody">Cost</td>
+        <td class="tablebody">Claim Type</td>
+        <td class="tablebody">Action</td>
+    </tr>
+    <tr class="tableHead" ng-repeat="x in records">
+        <td class="tablebody">{{ x.claimNumber }}</td>
+        <td class="tablebody">{{ x.submitter }}</td>
+        <td class="tablebody">{{ x.cost }}</td>
+        <td class="tablebody">{{ x.claimType }}</td>
+        <td class="tablebody Sub" ng-click="approveIt(x.claimNumber)" id={{x.claimNumber}}><span>Submit</span></td>
+    </tr>
+</table>
